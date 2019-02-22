@@ -105,7 +105,7 @@ const runCommand = function (event) {
    $('#list').empty(); 
    command = 'delete'; 
    $('form').show(); 
-   $('.extra-inputs').hide(); 
+   $('.extra-inputs').show(); 
  } 
 
 const render = function (htmlStr){
